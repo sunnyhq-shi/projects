@@ -3,17 +3,26 @@ Hi! I am Sunny (Hanqi) Shi, a junior at Swarthmore College majoring in statistic
 
 ## [Predicting Flu Hospitalization Rates](flu_hospitalization)
 **Project Overview**
+
 This project extends the ARGO (AutoRegression with Google data) methodology, originally developed to track influenza-like illness (ILI) at national, regional, and state levels. Our goal is to adapt this approach to predict weekly influenza hospitalization rates.
 
 **Methods**
 * Developed models with varying autoregressive lag times and dynamic training window lengths.
 * Explored imputation techniques to address data insufficiency during COVID.
-* Incorporated ILI as an exogenous predictor, using both:
-  * Reported ILI from previous weeks.
-  * Predicted ILI for the current week.
+* Incorporated ILI as an exogenous predictor, testing both the reported ILI from previous weeks and the predicted ILI for the current week.
 
 **Collaboration** 
 This research was conducted with Shaoyang Ning and Kaito Hikino from Swarthmore College.
 
 ## [Circle Packing (2024)](circle_packing) 
-Circle packings are fractal arrangements of mutually tangent circles with integer curvatures that have arrangements that can be described by their geometry. The Local-Global conjecture is a 20+ year old theorem that states that all integers large enough will appear for a starting configuration. In 2023, this theorem was disproven for the tetrahedral case. We determined that the Local-Global Conjecture was false in certain cases of the octahedral and cubic packings. We used a mixture of techniques mimicking the strategies used to disprove the tetrahedral case as well as data collection techniques to support our conjectures. 
+**Project Overview**
+
+Circle packings are fractal arrangements of mutually tangent circles with integer curvatures that have arrangements that can be described by their geometry. The Local-Global Conjecture (formulated over 20 years ago) states that all sufficiently large integers should appear in certain circle packing configurations. While this was disproven for the tetrahedral case in 2023, we show that the Local-Global Conjecture is false in six additional cases of octahedral and cubic packings.
+
+**Methods** 
+* Used a mixture of techniques mimicking the strategies used to disprove the tetrahedral case.
+* Collected large-scale data through computational methods to support our conjecture
+
+**Collaboration**
+
+This research was conducted with Ian Whitehead, Selena (Wenyuan) Shi, Hamlin Williams-Tracy, and Jeffrey Zhang and presented at the 2025 Joint Mathematics Meetings.
