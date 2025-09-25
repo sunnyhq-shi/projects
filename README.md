@@ -1,5 +1,12 @@
-## About ☀️
-Hi! I am Sunny (Hanqi) Shi, a junior at Swarthmore College majoring in statistics and minoring in computer science and philosophy. This repository contains the research and projects I have worked on. 
+## About Me
+Hi! I’m **Sunny (Hanqi) Shi**, a junior at **Swarthmore College** majoring in **Statistics** and minoring in **Computer Science** and **Philosophy**.
+
+This repository is a collection of my research and projects, including work in :
+* Statistical learning research
+* Number theory research
+* Personal projects that explore applications of programming and data science in my daily life
+
+Feel free to explore — I’m always excited to share ideas and connect!
 
 ## [Predicting Flu Hospitalization Rates (2025)](flu_hospitalization)
 **Project Overview**
@@ -23,3 +30,10 @@ Circle packings are fractal arrangements of mutually tangent circles with intege
 
 **Collaboration**
 This research was conducted with Ian Whitehead, Selena Shi, Hamlin Williams-Tracy, and Jeffrey Zhang from Swarthmore College and presented at the 2025 Joint Mathematics Meetings.
+
+## Personal Projects
+### [Transportation Data Science Project](others/transportation_data_project)
+This project analyzes motor vehicle collisions in New York City using time-series and  methods to uncover temporal and geographic patterns in traffic fatalities and provide insights for road safety.
+
+### [Badminton Scrimmage Scheduler](others/Badminton_Game_Lineup)
+I developed a Python algorithm to help my badminton club automate scrimmage scheduling. Scrimmages typically include 24–36 games against nearby colleges. We try to schedule such that no player appears in consecutive games. Previously, this scheduling had to be done manually by one organizer, which was time-consuming. I am also developing a better interface and adding customization features — for example, accounting for players who are only available during specific time periods.
