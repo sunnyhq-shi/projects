@@ -1,5 +1,5 @@
 ## About Me
-Hi! I’m **Sunny (Hanqi) Shi**, a junior at **Swarthmore College** majoring in **Statistics** and minoring in **Computer Science** and **Philosophy**.
+Hi! I’m **Sunny (Hanqi) Shi** ☀️, a junior at **Swarthmore College** majoring in **Statistics** and minoring in **Computer Science** and **Philosophy**.
 
 This repository is a collection of my research and projects, including work in :
 * Statistical learning research
