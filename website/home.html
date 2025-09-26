@@ -5,155 +5,34 @@
         <title>Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <style>
-            body, html {
-                min-width: 100%;
-                min-height: 100%;
-            }
-
-            body {
-                background: linear-gradient(135deg, #FBDBDE 0 15%, white 15% 85%, #FBDBDE 85% 100%);          
-                background-attachment: fixed; 
-            }
-
-            img {
-                max-width: 100%;
-                max-height: 100%;
-            }
-
-            .heading {
-                margin-left: 60%;
-                margin-top: 3%;
-                width: 27%;
-                height: 30px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                text-align: center;
-                color: #4B5659;
-                font-size: 15px;
-                text-shadow: #D94A7E 0 0 10px;
-                /* background-color: grey; */
-            }
-            
-            a {
-                transition: font-size 0.3s ease;
-                color: #4B5659;
-                text-decoration: none;
-            }
-            a:hover {
-                font-size: 20px;
-            }
-
-            .container {
-                margin-left: 17.5%;
-                margin-right: 17.5%;
-                margin-top: 4%;
-                width: 65%;
-                height: 60%;
-                display: grid;
-                grid-template-columns: 4fr 3fr;
-                align-items: center;
-                /* background-color: gray; */
-            }
-
-            .oval {
-                width: 100%;
-                aspect-ratio: 10 / 8.5;
-                border-radius: 50%;
-                /* overflow: hidden; */
-                margin-right: 0;
-                background-image: url("sunny_shi.JPG");
-                background-size: cover;
-            }
-
-            .fira-mono-regular {
-                font-family: "Fira Mono", monospace;
-                font-weight: 400;
-                font-style: normal;
-            }
-
-            .fira-mono-medium {
-                font-family: "Fira Mono", monospace;
-                font-weight: 500;
-                font-style: normal;
-            }
-
-            .fira-mono-bold {
-                font-family: "Fira Mono", monospace;
-                font-weight: 700;
-                font-style: normal;
-            }
-
-            .text {
-                margin-top: 0%;
-                padding-right: 5%;
-            }
-
-            h1 {
-                font-size: 30px;
-                color: #59845C;
-                margin-bottom: 0%;
-                font-size: 35px;
-                margin-top: 2%;
-                margin-bottom: 0%;
-                text-align: center;
-            }
-
-
-            p {
-                margin-top: 0%;
-                color: #4B5659;
-                font-size: 15px;
-            }
-
-            em {
-                font-style: normal;
+            .email{
                 color: #D94A7E;
             }
-            
-            em:hover {
-                font-style: italic;
-                font-weight: 700;
-            }
-
-            @media (max-width: 1200px) {
-                .heading {
-                    /* background-color: tomato; */
-                    flex-direction: column;
-                    gap: 7px
-                }
-
-                .container {
-                    grid-template-columns: 1fr;
-                    grid-template-rows: 1fr 0.6fr;
-                }
-            }
-
         </style>
     </head>
     <body>
-        <div class = "heading fira-mono-regular">
-            <div><a href = "home.html">home</a></div>
-            <div><a href= "about_me.html">research</a></div>
-            <div><a href= "blog.html">fun facts</a></div>
-            <div><a href = "mailto:hshi1@swarthmore.edu">contact</a></div>
+        <div class = "heading">
+            <div><a class = "icon" href = "home.html"><b>home</b></a></div>
+            <div><a class = "icon" href= "research.html">research</a></div>
+            <div><a class = "icon" href= "./files/Shi_Resume.pdf">resume</a></div>
+            <div><a class = "icon" href = "mailto:hshi1@swarthmore.edu">contact</a></div>
         </div>
-        <h1 class = "fira-mono-bold">Sunny (Hanqi) Shi</h1>
+        <h1>Sunny (Hanqi) Shi</h1>
         <div class = "container">
             <div class = "text">
-                <p class = "fira-mono-regular">I am a student at Swarthmore College majoring in Statistics and minoring in Computer Science and Philosphy. 
-                    I am interested in applied statistics and machine learning. Most recently, I have been working on predicing influenza hospitalization rates
-                    with Google Trends data using time-series models. 
+                <p>I am a third-year undergraduate student at <em>Swarthmore College</em> majoring in <em>Statistics</em> and minoring in <em>Computer Science</em> and <em>Philosphy</em>. 
+                    I am interested in developing statistical and machine learning models that address real-world problems. Recently, I am working on autoregressive models that predict influenza hospitalization rates
+                    with Google Trends data.
                 <br>
                 <br>
-                    I have 
+                    I also interned at the strategic investment division at Xiaohongshu (Rednote), which inspired my interest in social media platforms. I hope to develop more statistical tools
+                    that could help analyze data from online platforms and support research in various fields. 
                 <br>
                 <br>
-                    In ten years, I hope to have completed a PhD in a field related to statistics, even though I am not sure what the exact field is yet.
-                    I hope to be able to have experience working in both academia and industry. Ideally, I want to be a professor who consults on the side 
-                    because I like teaching and also solving problems with real-world applications. 
+                    Email me at <a class = "email" href = "mailto:hshi1@swarthmore.edu"> hshi1@swarthmore.edu</a>. You can also checkout my <a class = "email" href = "https://github.com/sunnyhq-shi/projects">GitHub</a>!
                 </p>
             </div>
             <div class = "oval">

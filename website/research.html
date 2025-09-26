@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            a.link {
+                text-decoration: underline;
+                text-decoration-style: dotted;
+                text-underline-offset: 5px;
+                color: var(--text-color)
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "heading">
+            <div><a class = "icon" href = "home.html">home</a></div>
+            <div><a class = "icon" href= "research.html"><b>research</b></a></div>
+            <div><a class = "icon" href= "./files/Shi_Resume.pdf">resume</a></div>
+            <div><a class = "icon" href = "mailto:hshi1@swarthmore.edu">contact</a></div>
+        </div>
+        <h1>Sunny (Hanqi) Shi</h1>
+        <div class = "container2"> 
+            <h2>Research</h2>
+            <div class = "research">
+                <div class = "top">
+                    <p class = "bold">
+                        "Nowcasting" Flu Hospitalization Rate Using Google Trends Data <a class = "link" href = "https://github.com/sunnyhq-shi/projects/tree/main/flu_hospitalization">[GitHub]</a> <a class = "link" href = "./files/Flu_Hospitalization.pdf">[Poster]</a>
+                    </p>
+                </div>
+                <div class = "left">
+                    <p>
+                        Our research extends the ARGO (AutoRegression with Google data) methodology, originally built to track influenza-like illness (ILI). We adapt this approach to predict weekly influenza hospitalization rates at the national level.
+                        We explored models with different autoregressive lag times, dynamic training windows, and predictors. We also developed imputation techniques to address the insufficient data during COVID. Our selected model outperforms the naive method (predicting with the previous week's data) by 80%. 
+                        <br> 
+                        <br> 
+                        Collaborators: Shaoyang Ning and Kaito Hikino
+                    </p>
+                </div>
+                <div class = "right">
+                    <iframe src = "./files/Flu_Hospitalization.pdf#toolbar=0" type= "application/pdf" width = 100% height = 95%></iframe>
+                </div>
+            </div>
+            <div class = "research">
+                <div class = "top">
+                    <p class = "bold">
+                        Local-Global Conjecture in Polyhedral Circle Packings <a class = "link" href = "https://github.com/sunnyhq-shi/projects/tree/main/circle_packing">[GitHub]</a> <a class = "link" href = "./files/Flu_Hospitalization.pdf">[Poster]</a>
+                    </p>
+                </div>
+                <div class = "left">
+                    <p>
+                        Circle packings are mutually tangent circles with integer curvatures that have arrangements that can be described by their geometry. The Local-Global Conjecture states that all sufficiently large integers should appear in certain packing configurations. This was disproven for the tetrahedral case in 2023. We show that the Local-Global Conjecture is false in six additional packings. We used a mixture of techniques mimicking the strategies in the tetrahedral case and collected data through programming to support our results.
+                        <br> 
+                        <br> 
+                        Collaborators: Ian Whitehead, Wenyuan Shi, Hamlin Williams-Tracy, Jeffrey Zhang
+                    </p>
+                </div>
+                <div class = "right">
+                    <iframe src = "./files/Polyhedral_Circle_Packing.pdf#toolbar=0" type= "application/pdf" width = 100% height = 95%></iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,196 @@
+:root {
+    --green: #59845C;
+    --text-color: #4B5659;
+    --pink: #D94A7E;
+}
+
+body, html {
+min-width: 100%;
+min-height: 100%;
+}
+
+body {
+background: linear-gradient(135deg, #FBDBDE 0 15%, white 15% 85%, #FBDBDE 85% 100%);          
+background-attachment: fixed; 
+}
+
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+.heading {
+margin-left: 60%;
+margin-top: 3%;
+width: 27%;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+color: #4B5659;
+font-size: 15px;
+text-shadow: #D94A7E 0 0 10px;
+/* background-color: grey; */
+}
+
+.icon {
+transition: font-size 0.3s ease;
+color: #4B5659;
+text-decoration: none;
+}
+.icon:hover {
+font-size: 20px;
+}
+
+.container {
+margin-left: 17.5%;
+margin-right: 17.5%;
+margin-top: 4%;
+width: 65%;
+height: 60%;
+display: grid;
+grid-template-columns: 4fr 3fr;
+align-items: center;
+/* background-color: gray; */
+}
+
+.oval {
+    width: 100%;
+    aspect-ratio: 10 / 8.5;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    margin-right: 0;
+    background-image: url("files/sunny_shi.jpg");
+    background-size: cover;
+}
+
+.fira-mono-regular {
+    font-family: "Fira Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-mono-medium {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fira-mono-bold {
+    font-family: "Fira Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text {
+    margin-top: 0%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--green);
+    margin-bottom: 0%;
+    font-size: 35px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+
+p {
+    margin-top: 0%;
+    color: var(--text-color);
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+em {
+    font-style: normal;
+    color: var(--pink);
+}
+
+em:hover {
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+.heading {
+    /* background-color: tomato; */
+    flex-direction: column;
+    gap: 7px
+}
+
+.container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.6fr;
+}
+}
+
+b {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+a.email {
+    color: var(--pink);
+    text-decoration: underline;
+}
+
+.container2 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+h2 {
+    color: var(--green);
+    border-bottom: solid var(--green) 2px;
+    font-size: 25px;
+}
+.research {
+    display: grid;
+    border-left: solid var(--green) 5px;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: auto 1fr;
+    margin-bottom: 2%;
+}
+
+.top {
+    color: var(--text-color);
+    grid-column: 1 / span 2; 
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.top p {
+    font-size: 17px;
+    word-spacing: 0px;
+}
+
+.left, .right {
+    padding-left: 2%;
+    margin-bottom: 1.5%;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.bold {
+    font-weight: bold;
+}
